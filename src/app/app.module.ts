@@ -7,6 +7,8 @@ import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-comp
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { PaperCustomizadoComponent } from './paper-customizado/paper-customizado.component';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PaperCustomizadoComponent } from './paper-customizado/paper-customizado
     PrimeiroComponenteComponent,
     SegundoComponenteComponent,
     MultiplicaPorPipe,
-    PaperCustomizadoComponent
+    PaperCustomizadoComponent,
+    RenderizandoListasComponent,
+    ComponentePersonalizadoComponent
   ],
   imports: [
     BrowserModule,
