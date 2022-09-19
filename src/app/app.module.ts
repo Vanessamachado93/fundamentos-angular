@@ -9,6 +9,9 @@ import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { PaperCustomizadoComponent } from './paper-customizado/paper-customizado.component';
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ComponentePersonalizadoComponent } from './componente-personalizado/com
     MultiplicaPorPipe,
     PaperCustomizadoComponent,
     RenderizandoListasComponent,
-    ComponentePersonalizadoComponent
+    ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent,
+    ExemploServicos1Component
   ],
   imports: [
     BrowserModule,
